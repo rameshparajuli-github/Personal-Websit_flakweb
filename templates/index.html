@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% block body %}
+<!-- Header-->
+<header class="masthead" style="background-image: url('{{ url_for('static', filename='img/05.jpg') }}')">
+    <div class="masthead text-center text-white">
+        <div class="masthead-content">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h1>
+                            <marquee> WELCOME TO RAMESH PARAJULI</marquee>
+                        </h1>
+                        <h2> Official website</h2>
+                        <h4>Programmer|Gadgets lover</h4>
+                        <span class="subheading">Life is learning and learning is life until the death knocks at our
+                            door.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Content section 1-->
+<section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle"
+                        src="{{ url_for('static', filename='img/12.jpeg') }}" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">About Me</h2>
+                    <p>My name is Ramesh Parajuli.I'm from Pokhara-23.I have practical experience in information
+                        technology field.
+                        I am a student.Regarding I have two years of experience in web development.
+                        I familiar with HTML , CSS , Python , C and C++.Besides, I have some basic knowledge of flutter
+                        too.
+                        I want to be the best as much as i can be. I would like to learn new things related to
+                        information technology.
+                        I am proficient at typing as well as playing cricket and enjoy traveling.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Content section 2-->
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="p-5"><img class="img-fluid rounded-circle"
+                        src="{{ url_for('static', filename='img/10.jpg') }}" alt="..." /></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-5">
+                    <h2 class="display-4">Website Development</h2>
+                    <p>Web development refers to the building, creating, and maintaining of websites. It includes
+                        aspects such as web design, web publishing,
+                        web programming, and database management.
+                        It is the creation of an application that works over the internet i.e. websites.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Content section 3-->
+<section>
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle"
+                        src="{{ url_for('static', filename='img/11.jpeg') }}" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">Graphic Design:</h2>
+                    <p>Graphic design is a notion for defining a visual communication tool.
+                        In other words, this is a sort of craft which helps individuals create content of
+                        different quality and complexity levels by
+                        using multiple page layout and perspective hierarchy techniques.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
